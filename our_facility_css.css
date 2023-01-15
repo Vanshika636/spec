@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#eaeff1;
+    overflow-x: hidden;
+}
+#one1{
+    height: 100vh;
+    width: 100%;
+    background-color:#eee;
+    overflow-x: hidden;
+    overflow: hidden;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#one1 h1{
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    word-spacing: 2px;
+    text-shadow: 4px 4px #313552;
+    letter-spacing: 1.5px;
+    margin-top:300px ;
+    margin-bottom: 40px;
+
+}
+.one{
+    height:350px;
+    width:20%;
+    overflow: hidden;
+    background-color:white;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 8px;
+}
+#two{
+    text-align: center;
+    margin: -100px;
+    background-color:#eee ;
+}
+.one p{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(21, 146, 192, 0.8);
+}
+.one h1{
+    font-size: 30px;
+    font-weight: 900;
+    font-family: cursive;
+    text-shadow: 1px 1px white;
+    color: rgba(1, 1, 51, 0.693);
+}
+.one h1:hover{
+    font-size: 40px;
+    background-color:rgba(21, 146,192,0.8);
+}
+figcaption{
+    font-size: 20px;
+    font-weight: 400;
+
+}
+a:hover{
+    color: rgba(21, 146,192,0.8);
+    font-size: 30px;
+}
+.one:hover{
+    height: 500px;
+    width: 20%;
+}
+
+
+@media  screen and(min-width:50px), (max-width:767px) {
+    #one1 h1{
+        font-size: 35px;
+        text-shadow: 2px 2px blue;
+        margin-bottom:-400px;
+    }
+    .one{
+        display: block;
+        width:100%;
+        text-align: center;
+        margin: 0px 0px;
+        padding: 2px;
+    }
+
+    #two{
+        text-align:center;
+    }
+    .one:hover{
+        height: 400px;
+        width: 100%;
+
+    }
+}
